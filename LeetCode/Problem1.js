@@ -21,4 +21,4 @@ const string = prompt('Enter a string or number: ');
 const value = mypalindrome(string);
 
 console.log(value);
-</script>
+ 
