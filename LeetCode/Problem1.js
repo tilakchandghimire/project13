@@ -1,4 +1,4 @@
- 		
+//declaring my palindrome function 		
 function mypalindrome(str) {
 
     // total length of the string
