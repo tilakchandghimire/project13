@@ -1,14 +1,13 @@
-<script>		
-		
-function validatePalin(str) {
+ 		
+function mypalindrome(str) {
 
-    // get the total length of the words
+    // total length of the string
     const len = string.length;
 
-    // Use for loop to divide the words into 2 half
+    //using loop to divide the word into half
     for (let i = 0; i < len / 2; i++) {
 
-        // validate the first and last characters are same
+        // to check first and last character if they are same
         if (string[i] !== string[len - 1 - i]) {
             alert( 'It is not a palindrome');
         }
@@ -16,10 +15,10 @@ function validatePalin(str) {
     alert( 'It is a palindrome');
 }
 
-// accept the string or number from the prompt
+// accept input from user
 const string = prompt('Enter a string or number: ');
 
-const value = validatePalin(string);
+const value = mypalindrome(string);
 
 console.log(value);
 </script>
